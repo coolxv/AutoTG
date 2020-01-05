@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "periphery_c", "periphery_c\periphery_c.vcxproj", "{AF3F1AE3-4FCA-4E39-9E6C-25E5DA50534D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "periphery_m", "periphery_m\periphery_m.vcxproj", "{A31D6C20-C85D-4708-8C23-E66D85CAC326}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF3F1AE3-4FCA-4E39-9E6C-25E5DA50534D} = {AF3F1AE3-4FCA-4E39-9E6C-25E5DA50534D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF3F1AE3-4FCA-4E39-9E6C-25E5DA50534D}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF3F1AE3-4FCA-4E39-9E6C-25E5DA50534D}.Debug|x86.Build.0 = Debug|Win32
+		{AF3F1AE3-4FCA-4E39-9E6C-25E5DA50534D}.Release|x86.ActiveCfg = Release|Win32
+		{AF3F1AE3-4FCA-4E39-9E6C-25E5DA50534D}.Release|x86.Build.0 = Release|Win32
+		{A31D6C20-C85D-4708-8C23-E66D85CAC326}.Debug|x86.ActiveCfg = Debug|Win32
+		{A31D6C20-C85D-4708-8C23-E66D85CAC326}.Debug|x86.Build.0 = Debug|Win32
+		{A31D6C20-C85D-4708-8C23-E66D85CAC326}.Release|x86.ActiveCfg = Release|Win32
+		{A31D6C20-C85D-4708-8C23-E66D85CAC326}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9337617-75B5-4EB7-9944-43E44384B64E}
+	EndGlobalSection
+EndGlobal
