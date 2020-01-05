@@ -1,6 +1,12 @@
 # AutoTG
 auto test GUI or Game by writing lua scripts.
 
+# 版本区别
+
+periphery-o:one exe
+
+periphery-t:two exe
+
 # 编译依赖
 
 [xv_dep](https://github.com/coolxv/xv_dep):编译依赖的第三方库及其头文件
@@ -15,7 +21,12 @@ AutoTG
 │   └───fflua
 │       │   ...
 │   
-└───periphery
+└───periphery-o
+│   │
+│   └───periphery_c
+│   └───periphery_m
+│   
+└───periphery-t
 │   │
 │   └───periphery_c
 │   └───periphery_m
@@ -43,8 +54,8 @@ zh_script
 │   gp.lic
 │   gps.conf 
 │   gpu.conf
-│   gpatc.dll 
-│   km.dll                //atmega32u4-usb-dev
+│   gpatc.dll             //gpatc.exe  
+│   km.dll                //atmega32u4-usb-dev, keyboard and mouse by writing code control
 │   gpatm.exe 
 │   ...
 
