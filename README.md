@@ -13,6 +13,8 @@ auto test GUI or Game by writing lua scripts.
 - https://github.com/deepmind/lab
 - https://github.com/microsoft/malmo
 - https://github.com/deepmind/open_spiel
+- https://github.com/Tencent/GameAISDK
+
 # 说明
 gpatm是GUI程序，负责管理gpatc运行、暂停、启动、停止等操作
 
